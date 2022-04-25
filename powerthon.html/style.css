@@ -1,0 +1,162 @@
+body {
+    background-image: url(https://source.unsplash.com/WLUHO9A_xik/1600x900);
+    
+}
+
+@media (min-width : 900px) {
+  
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.input{
+    border: 3px solid green;
+    width: 26vw;
+    height:3.5vh;
+     margin-left: 1.7rem;
+     border-radius: 7px;
+     min-height: auto;
+     min-width: auto;
+     font-size: 1.4rem;
+     box-shadow: 4px 4px 5px 2px rgb(248, 20, 191);
+    
+
+}
+.input:hover{
+   border-color: springgreen;
+   transform: scale(1.07);
+}
+.content{
+     /* border: 2px solid red;  */
+     background-color: rgb(195, 145, 224);
+     opacity: 0.9;
+    padding: 0;
+    margin: auto;
+    max-width: 30vw;
+    max-height: 200vh;
+     text-align: left; 
+    font-size: 1rem;
+    overflow: none;
+    border-radius: 20px;
+}
+p{
+    
+    /* border: 2px solid blueviolet;
+    text-align: left;*/
+    margin-left: 1.7rem;
+    font-size: 1.2rem;
+    color:black;
+    font-size: 1.5rem;
+}
+.gen{
+    
+    font-size: 1.5rem;
+            }
+
+.sub{
+    padding: 5px 5px;
+    margin : 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: rgb(5, 180, 107);
+    box-shadow: 4px 4px 5px 2px rgb(36, 12, 255);
+}
+
+.sub:hover{
+    background-color: cornsilk;
+    transform: scale(1.2);
+    
+}
+#selector{
+    height: 2rem;
+}
+
+#submit{
+    float: right;
+    margin-right: 3rem;
+}
+
+#reset{
+    float: float;
+   
+}
+
+}
+
+@media (max-width :899px){
+    h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.input{
+    border: 3px solid green;
+    width: 92vw;
+    height:4.5vh;
+     /* margin-left: 1.7rem; */
+     border-radius: 7px;
+     min-height: auto;
+     min-width: auto;
+     font-size: 1rem;
+     box-shadow: 4px 4px 5px 2px rgb(248, 20, 191);
+    
+
+}
+.input:hover{
+   border-color: springgreen;
+   transform: scale(1.07);
+}
+.content{
+     /* border: 2px solid red;  */
+     background-color: rgb(195, 145, 224);
+     opacity: 0.9;
+    padding: 0;
+    margin: auto;
+    max-width: 100vw;
+    max-height: 170vh;
+     text-align: left; 
+    font-size: 1.5rem;
+    overflow: none;
+    border-radius: 10px;
+}
+p{
+    color:black;
+    font-size: 1.5rem;
+}
+.gen{
+    
+    font-size: 1rem;
+            }
+
+.sub{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: rgb(5, 180, 107);
+    box-shadow: 4px 4px 5px 2px rgb(36, 12, 255);
+}
+
+.sub:hover{
+    background-color: cornsilk;
+    transform: scale(1.2);
+    
+}
+#selector{
+    height: 4.5vh;
+}
+
+#submit{
+    float: right;
+}
+
+#reset{
+    float: float;
+   
+}
+}

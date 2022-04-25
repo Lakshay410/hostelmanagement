@@ -1,0 +1,60 @@
+.heading{
+    text-align: center;
+    border: 3px solid green;
+    text-decoration: rgb(0, 0, 0);
+    
+  }
+ 
+ 
+ .header{
+    font-size: 17px;
+    font-family: candara;
+    display: flex-end;
+ }
+ 
+  .mainform{
+     margin: 50px 230px 50px 230px;
+     padding: 2rem;
+     border: 1px solid rgb(224,224,224) ;
+     border-radius: 15px;
+     box-shadow: 10px 7px 0 rgb(224,224,224);
+     background-color: white;
+     display: flex;
+     }
+  input[type=text], select, textarea {
+     display: flex;
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+ .btn-outline-primary{
+    position: center;
+    width: 144px;
+    height: 44px;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 30px 10px;
+    border: 2px solid rgb(132, 0, 255);
+    background-color: rgb(132, 0, 255);
+    color: white;
+    box-shadow: none;
+    transition: color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+    font-weight: bold;
+ }
+ .btn-outline-primary:hover{
+    background-color: white;
+    color:rgb(132, 0, 255) ;
+ 
+ }
+ 
+  @media screen and (max-width: 680px) {
+   .header, .mainform, input[type=submit] {
+     margin: 0px 0px 0px 0px;
+   }
+ }

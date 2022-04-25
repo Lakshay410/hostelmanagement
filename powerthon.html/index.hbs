@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsitration form Responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>REGISTRATION</h2>
+    <form action="/index" method="POST">
+        <div class="content" >
+            <p>Name :</p>
+            <input type="text" name="name" placeholder="Full Name" class="input" required> 
+            <p>Email :</p> 
+            <input type="email" name="email" placeholder="Email-id" class="input"required> 
+            <p>Gender :</p> 
+            <p class="gen" required><input type="radio" name="gender" class="gen">Male<input type="radio" name="gender" class="gen">Female<input
+                    type="radio" name="gender" class="gen">Other</p>
+            <p>Phone Number :</p> 
+            <input type="text" name="mobile" id="" placeholder="Phone Number" class="input" required> 
+            <p>CGPA : </p>
+            <input type="text" name="cgpa" id="" placeholder="Address" class="input" required> 
+            <p>Password :</p> 
+            <input type="password" name="password" id="" placeholder="password" class="input" required> 
+            <p>Re-Enter : </p>
+            <input type="password" name="confirmpassword" id="" placeholder="Re-Enter Password" class="input" required> 
+           <br> <input type="reset" value="RESET" class="sub" id="submit">
+        <input type="submit" value="SUBMIT" class="sub" id="reset">
+        </div>
+        
+    </form>
+
+</body>
+
+</html>

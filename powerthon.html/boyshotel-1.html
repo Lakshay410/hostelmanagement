@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Boys-hostel-1</title>
+</head>
+<body>
+   <div class="heading">
+      <h1>WELCOME TO HOSTELGEEKS</h1>
+   <h2>see our rooms and facilities</h2>
+   </div>
+   
+   <h2 style="text-align:center">DETAILS</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./powerthonimages/hostelrooms.jpg" alt="rooms" style="width:50%">
+      <div class="container">
+        <h2>HOSTEL ROOMS</h2>
+        
+        <p>All rooms are comfortable.</p>
+        
+        <p><button class="button">VIEW</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./powerthonimages/hostelfacilities.jpg" alt="facility" style="width:38%">
+      <div class="container">
+        <h2>HOSTEL FACILITIES</h2>
+       
+        <p>We provide each and every facilities.</p>
+       
+        <p><button class="button">VIEW</button></p>
+      </div>
+    </div>
+  </div>
+   
+        
+        </div>
+      </div>
+      <div class="rooms">
+         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="#">TOTAL ROOMS</a></li>
+  <li><a href="#">FILLED ROOMS</a></li>
+  <li><a href="#">EMPTY ROOMS</a></li>
+  <li><a href="#">CANTEEN</a></li>
+ 
+      </div>
+      
+
+
+
+
+
+
+
+   
+    <style>
+       .heading{
+   text-align: center;
+   border: 3px solid green;
+   text-decoration: rgb(0, 0, 0);
+   }
+   
+   *, *:before, *:after {
+   box-sizing: inherit;
+ }
+ .row{
+    margin-left: 20%;
+ }
+ 
+ .column {
+   float: left;
+   width: 33.3%;
+   margin-bottom: 16px;
+   padding: 0 8px;
+ }
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   margin: 8px;
+ }
+ 
+ .about-section {
+   padding: 50px;
+   text-align: center;
+   background-color: #474e5d;
+   color: white;
+ }
+ 
+ .container {
+   padding: 0 16px;
+ }
+ .container::after, .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .title {
+   color: grey;
+ }
+ 
+ .button {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+    margin-left: auto;
+ }
+ 
+ .button:hover {
+   background-color: #555;
+ }
+ 
+ @media screen and (max-width: 650px) {
+   .column {
+     width: 100%;
+     display: block;
+   }
+ }
+
+
+
+
+ /* Style the search box */
+#mySearch {
+  width: 30%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid rgb(20, 15, 15);
+}
+
+/* Style the navigation menu */
+#myMenu {
+   width: 30%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: rgb(241, 169, 169);
+}
+
+ 
+   
+
+  
+  
+    </style>
+
+
+
+
+
+
+
+<script>
+   function myFunction() {
+     // Declare variables
+     var input, filter, ul, li, a, i;
+     input = document.getElementById("mySearch");
+     filter = input.value.toUpperCase();
+     ul = document.getElementById("myMenu");
+     li = ul.getElementsByTagName("li");
+   
+     // Loop through all list items, and hide those who don't match the search query
+     for (i = 0; i < li.length; i++) {
+       a = li[i].getElementsByTagName("a")[0];
+       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+         li[i].style.display = "";
+       } else {
+         li[i].style.display = "none";
+       }
+     }
+   }
+   </script>
+   
+</body>
+</html>

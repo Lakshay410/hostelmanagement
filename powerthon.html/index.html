@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>HOSTELGEEKS</title>
+        <link rel="shortcut icon" href="./shortcut logo 3.png">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>   
+            <nav>
+                <div class="row">
+                    <img src="mainlogo2.png" class="logo">
+                    <ul class="main-nav" id="check-class">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registration.html">Register</a></li>
+                    </ul>
+                    <!-- Side navigation -->
+                    <!-- Page content -->
+                </div>
+            </nav>
+            <div class="main-content-header">
+                <div class="slider">
+                    <!--image slider start-->
+                    <div class="slides">
+                        <!--radio slider start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        
+                        <!--radio slider end-->
+                        <!--slides images start-->
+                        <div class="slide first">
+                            <img src="hostelimage.jpg" alt="" >
+                        </div>
+                        <div class="slide">
+                            <img src="hostelimage2.avif" alt="" >
+                        </div>
+                        <div class="slide">
+                         <img src="hostelimage3.jpg" alt="" >
+                     </div>
+                     <div class="slide">
+                         <img src="hostelimage4.jpg" alt="" >
+                     </div>
+                     <div class="slide">
+                         <img src="hostelimage5.jpg" alt="" >
+                    </div>
+                        <!--slides images end-->
+                        <!--automatic nav start-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                        <!--automatic nav end-->
+                    </div>
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+                </div>
+         <!--image slider end-->
+        <div class="sidenav">
+            <a href="#">student management</a>
+            <a href="#">Filled rooms</a>
+            <a href="#">Empty rooms</a>
+            <a href="studentpayment.html">student payment</a>
+            <a href="#">Mess bill</a>
+            <a href="#">Employee management</a>
+            <a href="#">Rooms details</a>
+            <a href="complaint.html">complaints</a>
+          </div>
+           <script type="text/javascript">
+            var counter = 2;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 5)
+                {
+                    counter = 1;
+                }
+            },5000);
+        </script>
+            
+        </header>
+
+        <section class="about">
+            <div class="about-title">
+                <h2>Accomdation</h2>
+           <!------------------------------------------------------------------------------------------->           
+               
+            </div>
+
+            <div class="about-pages">
+                <div class="section-1">
+                    <h2>Hostel list</h2>
+                    
+                    
+                      <div class="hostel-names">
+                       
+ 
+                        <a href="boyshostel-1.html"><button>BOYS-HOSTEL-1</button></a>
+                        <a href="#"><button>BOYS-HOSTEL-2</button></a>
+                        <a href="#"><button>BOYS-HOSTEL-3</button></a>
+                        <a href="#"><button>GIRLS-HOSTEL-1</button></a>
+                        <a href="#"><button>GIRLS-HOSTEL-2</button></a>
+                    </div> 
+                    
+                    <p>Hostel are clean and fully green enviornment.</p>
+                    
+                </div>
+
+                <div class="section-2">
+                    <h2>Notice board</h2>
+                    <div class="notices">
+                         <!-- Slideshow container -->
+                         <div class="notices-container">
+                            <div class="Student notice board">
+                              <a href="notice.html">
+                                 <button>Student notice board</button></a>
+                            </div>
+                          
+                            <div class="Employee notice board">
+                              <a href="#">
+                                 <button>Employee notice board</button></a>
+                            </div>
+                          
+                            <div class="Mess notice Board">
+                              <a href="#">
+                                 <button>Mess notice board</button></a>
+                            </div> 
+                        </div>
+                    </div> 
+                    <p>Here notices are stickes to connect with u better.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-section feeback">
+                        <p><center>we serve u with better facilities</center></p>
+                       <p><a href="#" class="feedback">  Give Feedback </a></p>
+                    
+                    </div>
+                    <div class="footer-section links">
+                        
+                        <p><center>HOSTELGEEKS<center></p><br>
+                    </div>
+                    <div class="footer-section contact-form">
+                        <div class="contact">
+                            <span><i class="fa fa-phone"></i> &nbsp; 7903728390</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span><i class="fa fa-envelope"></i> &nbsp; nikitasinha752@gmail.com</span>
+                        </div><br>
+                        <div class="socials">
+                            <a href="#"  style="color: white; text-decoration: none;" i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+                            <a href="#" style="color: white; text-decoration: none;" i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+                            <a href="#" style="color: white; text-decoration: none;" i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                            <a href="#" style="color: white; text-decoration: none;" i class="fa fa-youtube"></i></a>&nbsp;
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="footer-bottom">
+                    &copy; hostelgeeks.com<br>
+                    Copyright &copy 2022 Hostelgeeks Online Private Limited, India. All rights reserved
+                </div>
+            </div>
+       </footer>
+    </body>
+</html>
